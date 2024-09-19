@@ -27,7 +27,7 @@ services:
       - zookeeper
       - kafka
     environment:
-      KAFKA_CLUSTERS_0_NAME: localhost
+      KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAP_SERVERS: kafka:9092
       KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181
 
